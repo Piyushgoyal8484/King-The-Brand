@@ -78,18 +78,18 @@ src="https://www.facebook.com/tr?id=496483319425289&ev=PageView&noscript=1"
   </div>
 
   <script>
-    let remainingSeconds = 60;
+    let remainingSeconds = 10;
    
   
     function updateCountdown() {
       document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
      
   
-      remainingSeconds -= 1;
+      remainingSeconds -= 10;
      
   
       if (remainingSeconds < 0) {
-        remainingSeconds = 30; 
+        remainingSeconds = 10; 
       }
     
     }
